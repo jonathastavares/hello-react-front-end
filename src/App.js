@@ -7,7 +7,7 @@ import {
   Routes,
 } from 'react-router-dom';
 import { getData } from './redux/data/greeting';
-import Greeting from './components/greeting'
+import Greeting from './components/greeting';
 
 function App() {
   const dispatch = useDispatch();
